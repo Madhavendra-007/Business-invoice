@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgba(234, 228, 220, 0.612);
+    font-family: 'Roboto', sans-serif;;
+}
+.bill{
+    display: flex;
+    flex-direction: column;
+    width: 70 vw;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin:4vh 13vw;
+    
+}
+.heading{
+    display: inline;
+    font-size: 6vh;
+    border-bottom: 2px dashed rgb(81, 97, 115);
+   
+    }
+
+.astr{
+    color: red;
+}
+.logoButton{
+    height: 7vh;
+    width: 9vw;
+    align-self: center;
+}
+.logo{
+    height: 3vh;
+}
+input[type="text"]{
+    background-color:none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(195, 191, 191);
+    width: 10vw;
+    height:3vh;
+    padding: 1vh;
+    margin: 0.5vh;
+
+}
+
+input[type="date"]{
+    background-color:beige;
+    padding: 1vh 0.5vw;
+    border: none;
+    border-radius: 5px;
+    height: 3vh;
+    width: 9vw;
+}
+.btn{
+    background-color: rgba(68, 5, 5, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 8vw;
+    
+
+}
+
+.billed{
+    font-size: xx-large;
+
+}
+.details{color:rgb(44, 43, 43);
+   font-size: smaller;
+}
+.flex3aii input[type="text"]{
+width: 28vw;
+align-self: center;
+}
+.cityZip input[type="text"]{
+    width: 13vw;
+    margin-top: 6px;
+    margin-left: 9px;
+}
+

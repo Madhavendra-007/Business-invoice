@@ -1,0 +1,20 @@
+.frms{
+    height: 5vh;
+margin-top: 1vh;
+margin-left: 6px;
+margin-right: 6px;
+color: #53585d;
+
+background-color:rgba(255, 0, 0, 0);
+border: none;
+outline: none;
+border-bottom: 1px solid rgb(195, 191, 191);
+}	
+
+
+#secondlist1{
+    width: 15vw;
+}
+#secondlist2{
+    width: 15vw;
+}

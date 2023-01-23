@@ -1,0 +1,82 @@
+.bigFlex1 {
+  display: flex;
+  justify-content: center;
+  margin: 4vh 0vh;
+  width: 70vw;
+}
+.bigFlex2 {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+  height: auto;
+  margin: 0vh 3vw;
+}
+.bigFlex2a {
+  display: flex;
+  width: max-content;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.EntriesFlex {
+  display: flex;
+  width: 21vw;
+  justify-content: space-between  ;
+  align-items: center;
+  margin: 0.5vh ;
+  
+}
+.bigFlex2b{
+    display: flex;
+    height: 15vh;
+    width: 11vw;
+    justify-content: center;
+    
+
+}
+.logoFlex{
+  display: flex;
+  align-items: center;
+  margin: 1vh;
+}
+.bigFlex3{
+  display: flex;
+  
+ justify-content: space-between;
+ width: 70vw;
+ margin: 7vh 3vw;
+
+
+}
+
+.bigFlex3a{
+  display: flex;
+  background-color: rgba(240, 248, 255, 0.949);
+  flex-direction: column;
+width: 34vw;
+}
+.flex3ai{
+  margin:10px 0px 0px 27px;
+  font-size: 3vh;
+  
+
+}
+.flex3aii{
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(255, 255, 255, 0.767);
+  margin: 0px 20px 20px 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.cityZip{
+  display: flex;
+  justify-content: space-between;
+}
+.bigFlex3b{
+background-color: beige;
+width: 34vw;
+}

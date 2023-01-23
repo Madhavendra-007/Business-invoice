@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="util.css">
+    <link rel="stylesheet" type="text/css" href="NewElements.css">
+    <link rel="stylesheet" type="text/css" href="SVGs.css">
+    <link rel="stylesheet" type="text/css" href="ExtraSpace.css">
+    <link rel="stylesheet" type="text/css" href="Design.css">
+    
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="bill">
+        <div class="bigFlex1">
+
+            <span class="heading">Invoice</span>
+            <svg  width="3.5vw" height="3.5vw" viewBox="0 0 10 10" >
+                <path class="plusBoxLogo" d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.8 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z"/></svg>
+        </div>
+        <div class="bigFlex2"> 
+
+            <div class="bigFlex2a">
+
+
+                <div class="EntriesFlex">
+                    <div>
+                        <span class="tags" onclick="totext()">Invoce No</span> <span class="astr">*</span>
+                    </div>
+                    <input type="text">
+                    
+                </div>
+
+                <div class="EntriesFlex"> 
+                    <div>
+                        <span class="tags" onclick="totext()">Invoice Date</span><span class="astr">*</span>
+                    </div>
+                    <input type="date">
+                    
+                </div>
+
+                <div class="EntriesFlex">
+                    <div>
+                        <span class="tags" onclick="totext()">Due Date</span><span class="astr">*</span>
+                    </div>
+
+                    <input type="date">
+                    
+                </div>
+                <div class="EntriesFlex">
+
+                    <button id="addNewFieldBtn" class="btn addNewFieldsBtn">
+                        <div class="btndiv">
+
+
+                            <svg width="16" height="16" viewBox="0 0 16 16">
+                                <rect class="plusBoxLogo" width="16" height="16" fill="none" stroke="none" rx="3">
+                                </rect>
+                                <rect class="plusBoxLogo" width="15" height="15" x=".5" y=".5" fill="none" rx="2.5">
+                                </rect>
+
+                                <path class="plusBoxLogo"
+                                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+                                    stroke-width="1">
+
+                            </svg>
+                            Add New Fields
+                        </div>
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="bigFlex2b">
+
+                <button class="logoButton">
+                    <div class="logoFlex">
+
+                        <img class="logo" src="images\pngtree-gallery-vector-icon-png-image_470660.png" alt=" no Logo">
+                        <span>Add Business Logo</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="bigFlex3">
+            <div class="bigFlex3a">
+                <div class="flex3ai">
+
+                    <span class="billed">Billed by</span>
+                    <span class="details">(Your Details)</span>
+                </div>
+                <div class="flex3aii">
+                    <input type="text" placeholder="Business/Freelancer Name">
+                    <input type="text" placeholder="Address">
+                    <select id='listBox1' class='resp_code frms' onchange='selct_district1(this.value)'></select>
+                    <div class="cityZip">
+                        <select id='secondlist1' class='resp_code frms' >
+                            <option >District</option>
+                        </select>
+                        <input type="text" placeholder="Postal/Zip Code">
+
+                    </div>
+                </div>
+            </div>
+            <div class="bigFlex3a">
+                <div class="flex3ai">
+
+                    <span class="billed">Billed to</span>
+                    <span class="details">(Client Details)</span>
+                </div>
+                <div class="flex3aii">
+
+                    
+
+                    <input type="text" placeholder="Client Name">
+                    <input type="text" placeholder="Address">
+                    <select id='listBox2' class='resp_code frms' onchange='selct_district2(this.value)'></select>
+                    <div class="cityZip">
+                        <select id='secondlist2' class='resp_code frms'>
+                            <option >District</option>
+                        </select>
+                        <input type="text" placeholder="Postal/Zip Code">
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+ 
+    <script src="index.js"></script>
+
+</body>
+<script language="Javascript" src="jquery.js"></script>
+<script type="text/JavaScript" src='state2.js'></script> 
+    <script type="text/JavaScript" src='state1.js'></script> 
+</html>

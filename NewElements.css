@@ -1,0 +1,7 @@
+.NewEntriesFlex{
+    display: flex;
+  width: 23vw;
+  justify-content: space-between  ;
+  align-items: center;
+  margin: 0.5vh ;
+}
