@@ -43,7 +43,7 @@ input[type="text"]{
     height:3vh;
     padding: 1vh;
     margin: 0.5vh;
-
+    padding: 1vh;
 }
 
 input[type="date"]{
