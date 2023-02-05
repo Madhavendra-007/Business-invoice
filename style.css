@@ -52,7 +52,10 @@ input[type="date"]{
     border: none;
     border-radius: 5px;
     height: 3vh;
-    width: 9vw;
+    width: 9vw; 
+
+
+    
 }
 .btn{
     background-color: rgba(68, 5, 5, 0);
