@@ -34,13 +34,14 @@ body{
 .logo{
     height: 3vh;
 }
-input[type="text"]{
+
+.bigFlex3 input[type="text"]{
     background-color:none;
     border: none;
     outline: none;
     border-bottom: 1px solid rgb(195, 191, 191);
-    width: 10vw;
-    height:3vh;
+
+
     padding: 1vh;
     margin: 0.5vh;
     padding: 1vh;
@@ -87,3 +88,208 @@ align-self: center;
     margin-left: 9px;
 }
 
+.bigFlex1 {
+    display: flex;
+    justify-content: center;
+    margin: 4vh 0vh;
+    width: 70vw;
+  }
+  .bigFlex2 {
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    height: auto;
+    margin: 0vh 3vw;
+  }
+  .bigFlex2a {
+    display: flex;
+    width: max-content;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .EntriesFlex {
+    display: flex;
+    width: 21vw;
+    justify-content: space-between  ;
+    align-items: center;
+    margin: 0.5vh ;
+    
+  }
+  .bigFlex2b{
+      display: flex;
+      height: 15vh;
+      width: 11vw;
+      justify-content: center;
+      
+  
+  }
+  .logoFlex{
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+  }
+  .bigFlex3{
+    display: flex;
+    
+   justify-content: space-between;
+   width: 70vw;
+   margin: 7vh 3vw;
+  
+  
+  }
+  
+  .bigFlex3a{
+    display: flex;
+    background-color: rgba(203, 222, 238, 0.949);
+    flex-direction: column;
+  width: 34vw;
+  }
+  .flex3ai{
+    margin:10px 0px 0px 27px;
+    font-size: 3vh;
+    
+  
+  }
+  .flex3aii{
+    display: flex;
+    flex-direction: column;
+  
+    background-color: rgba(255, 255, 255, 0.767);
+    margin: 0px 20px 20px 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  .cityZip{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bigFlex3b{
+  background-color: beige;
+  width: 34vw;
+  }
+  .bigFlex4{
+    min-height: 100px;
+    
+    margin: 10px;
+    background-color: rgba(203, 222, 238, 0.949);
+    width: 98%;
+    margin: 0vh 3vw;
+    
+    padding: 10px 0px 10px 0px;
+  }
+  .rowHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+    margin-left: 10px;}
+  .itemNameHeader{
+    width: 33.3vw;
+  
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    text-align: center;
+    /* background-color: whitesmoke; */
+    /* margin: 10px 0px 0px 10px; */
+    /* border: 1px solid rgb(168, 168, 255); */
+    border-radius: 5px;
+  }
+  .itemDetailsHeader{
+    width: 7.6vw;
+    text-align: center;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    /* position: relative; */
+    /* right: 20px; */
+    /* padding-left: 10px; */
+    /* background-color: whitesmoke; */
+    /* border: 1px solid rgb(168, 168, 255); */
+    /* margin: 10px 0px 0px 0px; */
+    border-radius: 5px;
+    justify-self: start;
+    align-items: start;
+  }
+  .itemRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+  
+  }
+  .addItemRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+  
+  }
+  .itemName{
+    width: 33.3vw;
+    height: 5.8vh;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    /* margin: 10px 0px 0px 10px; */
+    border: 1px solid rgb(168, 168, 255);
+    border-radius: 5px;
+  }
+  .itemDetails{
+    width: 7.6vw;
+    height: 5.8vh;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(168, 168, 255);
+    /* margin: 10px 0px 0px 0px; */
+    border-radius: 5px;
+    justify-self: start;
+    align-items: start;
+  }
+  .trashCan{
+    fill:rgba(90, 90, 90, 0.949);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 10px; */
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+  }
+  .addItemDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 7vh;
+  }
+ 
+  #addItemButton{
+  margin-right: 1vw;
+  border: 2px solid rgb(25, 25, 25);
+  color: rgb(5, 5, 36);
+    padding: 2px 10px;
+border-radius: 5px;
+cursor: pointer;
+  }
+
+ 
